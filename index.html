@@ -4,6 +4,27 @@ layout: default
 
 <div class='other-pages'>
 
+    <style type="text/css">
+        /* Auto-hide profile photo */
+        @media screen and (max-width: 700px) {
+          div#profile_photo { display: none }
+        } 
+        /* 按钮样式 */
+        .my-button {
+          background-color: #4CAF50; /* 绿色背景 */
+          border: none; /* 无边框 */
+          color: white; /* 白色文字 */
+          padding: 15px 32px; /* 内边距 */
+          text-align: center; /* 文字居中 */
+          text-decoration: none; /* 无下划线 */
+          display: inline-block; /* 行内块元素 */
+          font-size: 16px; /* 文字大小 */
+          margin: 4px 2px; /* 外边距 */
+          cursor: pointer; /* 光标样式 */
+          border-radius: 4px; /* 圆角 */
+        }
+    </style>
+
   <style type="text/css">
     /* Auto-hide profile photo */
     @media screen and (max-width: 700px) {
@@ -47,6 +68,7 @@ layout: default
 
 
   <!-- <a class="page-link" href="{{ '/cal.html' | relative_url }}">&#128197; <b>My free/busy calendar</b></> -->
+  <button class="my-button" onclick="window.location.href='https://sites.google.com/d/1PN1Ttf3oYSSXKRrHxKD3hJSoLaBpj03X/edit'">Click Me!</button>
 
   </br>
   <div><h3>PUBLICATIONS</h3></div>
